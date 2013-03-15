@@ -55,9 +55,10 @@ This installation only works for Unix-like operating systems (that is, OS X and 
 
 1. Use [Pathogen](https://github.com/tpope/vim-pathogen) for package management.
 2. Use the [Solarized Dark color scheme for vim](https://github.com/altercation/vim-colors-solarized).
+3. Use the [vim-pandoc plugin](https://github.com/vim-pandoc/vim-pandoc).
 
 ## TODO:
 
 - Pulled bits and pieces from:
     + [How I boosted my Vim](http://nvie.com/posts/how-i-boosted-my-vim/)
-	+ [Example vimrc](http://vim.wikia.com/wiki/Example_vimrc)
+    + [Example vimrc](http://vim.wikia.com/wiki/Example_vimrc)
