@@ -7,8 +7,10 @@ This directory contains the custom vim modes that I use for development.
 First, clone the repo into your `~/.vim` directory. _Be advised: You may need to delete your current `~/.vim` directory and replace it. You should probably back up this directory!_
 
     git clone https://github.com/goxberry/dot_vim.git ~/.vim
-	git submodule init
-	git submodule update
+    cd ~/.vim
+    git submodule init
+    git submodule update
+    cd ~
 
 Next, soft-link `nix_dot_vimrc` in this repo to `~/.vimrc`. _Warning: This command will overwrite your current `~/.vimrc` file, so you should back it up!_
 
