@@ -10,7 +10,7 @@ First, clone the repo into your `~/.vim` directory. _Be advised: You may need to
 
 Next, soft-link `nix_dot_vimrc` in this repo to `~/.vimrc`. _Warning: This command will overwrite your current `~/.vimrc` file, so you should back it up!_
 
-    ln -sf ~/.vim/nix.vimrc ~/.vimrc
+    ln -sf ~/.vim/nix.vim ~/.vimrc
 
 And you're done!
 
