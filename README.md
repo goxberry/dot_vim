@@ -7,6 +7,8 @@ This directory contains the custom vim modes that I use for development.
 First, clone the repo into your `~/.vim` directory. _Be advised: You may need to delete your current `~/.vim` directory and replace it. You should probably back up this directory!_
 
     git clone https://github.com/goxberry/dot_vim.git ~/.vim
+	git submodule init
+	git submodule update
 
 Next, soft-link `nix_dot_vimrc` in this repo to `~/.vimrc`. _Warning: This command will overwrite your current `~/.vimrc` file, so you should back it up!_
 
@@ -19,6 +21,8 @@ And you're done!
 This installation only works for Unix-like operating systems (that is, OS X and Linux). It assumes you have Vim version 7.3.
 
 ## Features included
+
+### Base Vim
 
 1. Automatic detection of features based on file type:
    - Syntax highlighting
@@ -40,6 +44,10 @@ This installation only works for Unix-like operating systems (that is, OS X and 
    - Backspace over everything in insert mode
 4. Always provide line/column number information
 5. Other features also included, but not mentioned here
+
+### Plugins
+
+1. Use [Pathogen](https://github.com/tpope/vim-pathogen) for package management.
 
 ## TODO:
 
