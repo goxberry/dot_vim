@@ -79,7 +79,7 @@ set showmatch
 " Set color scheme
 " Use degraded 256 color scheme (if Solarized color scheme not used by
 " terminal)
-" let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 " Solarized dark color scheme
 set background=dark
 colorscheme solarized
