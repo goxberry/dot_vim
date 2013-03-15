@@ -3,6 +3,12 @@
 " when re-sourcing .vimrc
 set nocompatible
 
+"Use pathogen to easily modify the runtime path to include all plugins under
+" the ~/.vim/bundle directory
+filetype off                    " force reloading *after* pathogen loaded
+call pathogen#infect()
+call pathogen#helptags()
+
 " Attempt to determine type of file based on name & possibly contents, to
 " allow intelligent auto-indenting and plugin selection based on file type
 filetype indent plugin on
