@@ -12,6 +12,10 @@ First, clone the repo into your `~/.vim` directory. _Be advised: You may need to
     git submodule update
     cd ~
 
+Then, soft-link `vim-pathogen` to the right place:
+
+    ln -sf ~/.vim/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
+
 Next, soft-link `nix_dot_vimrc` in this repo to `~/.vimrc`. _Warning: This command will overwrite your current `~/.vimrc` file, so you should back it up!_
 
     ln -sf ~/.vim/nix_vimrc.vim ~/.vimrc
