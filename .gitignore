@@ -1,0 +1,95 @@
+# Files to be ignored by Git.
+
+### Text editor gitignores
+## emacs gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore 
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+## End emacs gitignores
+
+## vim gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/vim.gitignore
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+## End vim gitignores
+
+## SublimeText gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
+# SublimeText project files
+*.sublime-workspace
+## End SublimeText gitignores
+
+## Eclipse gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+## End Eclipse gitignores
+
+## TextMate gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore
+*.tmproj
+*.tmproject
+tmtags
+## End TextMate gitignores
+### End text editor gitignores
+
+### Operating system gitignores
+## OS X gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+## End OS X gitignores
+
+## Linux gitignores, from
+## https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+.*
+!.gitignore
+*~
+## End Linux gitignores
+### End operating system gitignores
