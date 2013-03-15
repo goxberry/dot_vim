@@ -48,6 +48,7 @@ This installation only works for Unix-like operating systems (that is, OS X and 
 ### Plugins
 
 1. Use [Pathogen](https://github.com/tpope/vim-pathogen) for package management.
+2. Use the [Solarized Dark color scheme for vim](https://github.com/altercation/vim-colors-solarized).
 
 ## TODO:
 
