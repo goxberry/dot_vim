@@ -1,4 +1,4 @@
-# Customizations for Emacs
+# Customizations for Vim
 
 This directory contains the custom vim modes that I use for development.
 
